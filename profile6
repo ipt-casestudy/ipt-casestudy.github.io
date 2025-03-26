@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile 6</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #2c2c2c;
+        }
+        .profile-card {
+            background-color: rgb(27, 27, 27);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            width: 300px;
+            margin-bottom: 20px; /* Added margin to separate from nav buttons */
+        }
+        .profile-card h2 {
+            margin: 0 0 10px;
+        }
+        .profile-card p {
+            color: #666;
+            margin: 0 0 20px;
+        }
+        .nav-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* Added gap between buttons */
+            width: 320px; /* Increased width */
+        }
+        .nav-buttons a {
+            display: block;
+            padding: 10px; /* Increased padding */
+            font-size: 16px; /* Increased font size */
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-align: center;
+            width: 100%; /* Make buttons take full width */
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+        }
+        .nav-buttons a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="pfp.jpg" alt="Bryan Dale Sumagaysay" style="width:100%; border-radius: 10px 10px 0 0;">
+        <h2>Bryan Dale Sumagaysay</h2>
+        <p>Tester</p>
+    </div>
+    <div class="nav-buttons">
+      	<a href="profile1.html">Kurt Russel Ramos</a>
+        <a href="profile2.html">Clark Seguin</a>
+        <a href="profile3.html">Joen Paningbatan</a>
+        <a href="profile4.html">Alexis Cedric Abagat</a>
+        <a href="profile5.html">Patrick Kewin Lao</a>
+        <a href="index.html">Home</a>
+    </div>
+</body>
+</html>
